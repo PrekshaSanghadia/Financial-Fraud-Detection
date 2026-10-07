@@ -1,0 +1,49 @@
+# Theme + fonts for the Fraud Desk look.
+# The fonts live in static/fonts and are served by Streamlit itself,
+# so they load offline and on Streamlit Cloud (no Google Fonts needed).
+[server]
+enableStaticServing = true
+
+[theme]
+base = "light"
+primaryColor = "#C8402F"
+backgroundColor = "#F6F3EC"
+secondaryBackgroundColor = "#ECE7DA"
+textColor = "#16213A"
+font = "Hanken Grotesk, sans-serif"
+headingFont = "Source Serif, Georgia, serif"
+
+[theme.sidebar]
+backgroundColor = "#121A2E"
+secondaryBackgroundColor = "#1D2848"
+textColor = "#E9E4D8"
+
+[[theme.fontFaces]]
+family = "Hanken Grotesk"
+url = "app/static/fonts/HankenGrotesk-Regular.woff2"
+weight = 400
+
+[[theme.fontFaces]]
+family = "Hanken Grotesk"
+url = "app/static/fonts/HankenGrotesk-Medium.woff2"
+weight = 500
+
+[[theme.fontFaces]]
+family = "Hanken Grotesk"
+url = "app/static/fonts/HankenGrotesk-SemiBold.woff2"
+weight = 600
+
+[[theme.fontFaces]]
+family = "Hanken Grotesk"
+url = "app/static/fonts/HankenGrotesk-Bold.woff2"
+weight = 700
+
+[[theme.fontFaces]]
+family = "Source Serif"
+url = "app/static/fonts/SourceSerif-Semibold.woff2"
+weight = 600
+
+[[theme.fontFaces]]
+family = "Source Serif"
+url = "app/static/fonts/SourceSerif-Bold.woff2"
+weight = 700

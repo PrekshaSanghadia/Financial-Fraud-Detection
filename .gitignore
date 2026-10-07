@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+
+# Dataset is large and downloaded separately — do not commit it
+data/creditcard.csv
+
+# Model files ARE tracked (needed for deployment), so they are
+# intentionally NOT ignored here.
